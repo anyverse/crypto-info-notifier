@@ -4,7 +4,7 @@ import { DynamicModule, Module } from '@nestjs/common';
 import twitterConfig from 'src/configs/twitter.config';
 import telegramConfig from './telegram.config';
 
-export type ENV = 'local' | 'local-test' | 'ci' | 'test' | 'production' | 'dev';
+export type ENV = 'local'| 'dev';
 
 @Module({})
 export class ConfigModule {
