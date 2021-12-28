@@ -1,0 +1,3 @@
+export enum TASK {
+    TASK_TWITTER_MONITOR = 'TASK_TWITTER_MONITOR'
+}
